@@ -67,6 +67,6 @@ Contributions are welcome! Please adhere to the following guidelines:
 
 >>>Contact
 
-Adam Ben Oudda
+Adam Ben oudda
 Email: adambenoudda.ma@gmail.com
 GitHub: https://github.com/Adam-Ben-oudda

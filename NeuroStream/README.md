@@ -22,7 +22,7 @@ It integrates cutting-edge algorithms with efficient streaming architecture to d
 
 ```bash
 # Clone the repository
-git clone https://github.com/AdamBenOudda/NeuroStream.git
+git clone https://github.com/Adam-Ben-oudda/NeuroStream.git
 
 # Navigate to the project directory
 cd NeuroStream
@@ -34,25 +34,12 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 # Install dependencies
 pip install -r requirements.txt
 
-Usage
-Basic Example
-
-from neurostream import StreamProcessor, NeuralModel
-
-# Initialize model and stream processor
-model = NeuralModel(model_path="models/your_model.pth")
-processor = StreamProcessor(model=model)
-
 # Start streaming data processing
 processor.start_stream(source="your_data_source")
 
 # Optionally, listen for processed output
 for output in processor.stream_output():
     print(output)
-
-Command Line Interface
-
-python neurostream_cli.py --model models/your_model.pth --source your_data_source
 
 Configuration
 

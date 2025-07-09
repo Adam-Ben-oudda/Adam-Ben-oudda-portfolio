@@ -1,0 +1,16 @@
+# Core dependencies
+numpy>=1.24.0
+pandas>=1.5.0
+scikit-learn>=1.3.0
+statsmodels>=0.14.0
+scipy>=1.10.0
+
+# Async and performance
+aiohttp>=3.9.0
+
+# Optional for running and scheduling
+uvicorn>=0.23.0
+fastapi>=0.100.0
+
+# Logging / development tools
+loguru>=0.7.0
